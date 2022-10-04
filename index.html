@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark d-flex py-3">
+        <div class="bop"></div>
+        <div class="bop"></div>
+        <div class="bop"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
+            <a class="navbar-brand lead" href="#">MANUEL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav text-dark">
+                    <li class="navbar-item px-5">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item px-5">
+                        <a href="#" class="nav-link">About Me</a>
+                    </li>   
+                    <li class="navbar-item px-5">
+                        <a href="#project" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+                <button class="btn btn-dark ms-auto d-none d-sm-block">Contact me</button>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title ps-5 fs-1 mt-2" id="offcanvasLabel">My Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="list-unstyled p-3">HOME</li>
+                <li class="list-unstyled p-3">ABOUT ME</li>
+                <li class="list-unstyled p-3">PROJECT</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="hero col-lg-6 mt-5 order-lg-2">
+                <div>
+                    <h3>FRONT-END DEVELOPER:</h3>
+                    <h3 class="text-danger">MANUEL</h3>
+                    <p> Manuel front-end Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sint, maxime corporis in atque inventore cumque ab libero, porro nesciunt unde? Cumque aliquam minima sunt nam obcaecati recusandae quasi reiciendis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolores voluptatum maxime sed cupiditate sapiente animi veniam possimus repudiandae quae minus modi consectetur, illum facere cumque laudantium! Alias, illum eos?
+                    </p>
+                </div>
+                <div class="clown d-flex mb-5">
+                    <img src="/image/WhatsApp Image 2022-10-04 at 4.34.19 AM.jpeg" alt="">
+                    <div>
+                        <h6 class="py-0 my-0 fw-bold mx-3">MANUEL</h6>
+                        <p class="py-0 my-0 mx-3">File under interview</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="/image/WhatsApp Image 2022-09-05 at 4.55.27 AM.jpeg"  alt="" style="width: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="w-75">
+            <p>
+                <span class="fw-bold fs-1">W</span>orem ipsum dolor sit amet consectetur adipisicing elit.
+                Cum
+                vel aspernatur provident alias dolorem maxime culpa explicabo, illo quam iste error cumque praesentium
+                assumenda
+                placeat quia odio consectetur ratione enim!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non maiores repellat reprehenderit dolore.
+                Eligendi
+                unde saepe repellendus delectus in nihil accusantium. Expedita veniam, placeat atque fugit iure fuga? Ab,
+                error.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium iure amet ad corporis nesciunt
+                cumque provident voluptates odio rerum molestias reprehenderit nulla, optio, dolore, consequatur reiciendis
+                alias vero explicabo.
+            </p>
+        </div>
+    </div>
+    <div class="container" id="project">
+        <h3 class="fw-bold mb-2 text-center">Project</h3>
+        <div class="row mb-5">
+            <div class="col-md-4 g-4">
+                <img src="/image/baby.jpg" alt="" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-md-4 g-4">
+                <img src="/image/caught-in-joy-ptVBlniJi50-unsplash.jpg" alt="" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-md-4 g-4">
+                <img src="/image/istockphoto-490506050-612x612.jpg" alt="" style="width: 100%; height: 300px;">
+            </div>
+        </div>
+    </div>
+    <footer class="p-4 text-light text-center crow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <h5 class="px-5">Quick link</h5>
+                        <li class="py-2">Products</li>
+                        <li>features</li>
+                        <li>Resources</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="px-5">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>2, londoner avenue</li>
+                        <li>09076560088</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newspaper</h5>
+                    <ul class="list-unstyled">
+                        <li>copyright@MANUEL 2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- script for bootstrap -->
+    <script src="/bootstrap.min.js"></script>
+</body>
+</html> 
